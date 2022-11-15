@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="488.73502"
+   height="432.92307"
+   viewBox="0 0 129.31114 114.54423"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="m.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="777"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.30919627"
+     inkscape:cx="19.224658"
+     inkscape:cy="323.36958"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="matrix(0.93970018,0,0,0.94266333,-33.07646,-72.194169)"
+     style="stroke-width:28.1119;stroke-miterlimit:4;stroke-dasharray:none">
+    <g
+       aria-label="M"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:173.093px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:28.1119;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         d="M 172.80789,76.585316 V 198.0966 h -29.59891 v -72.87215 l -27.1756,72.87215 H 92.146548 L 64.797854,125.05136 V 198.0966 H 35.19895 V 76.585316 h 34.964787 l 34.099323,84.123194 33.75313,-84.123194 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins;fill:#000000;stroke-width:28.1119;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path835" />
+    </g>
+  </g>
+  <path
+     id="path10"
+     style="fill:none;stroke:#ffffff;stroke-width:33.0729;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+     inkscape:transform-center-x="28.284288"
+     inkscape:transform-center-y="65.187241"
+     d="m -82.277978,-68.948813 146.933542,0.07807 146.933566,0.07807 L 138.05798,64.77664 64.52678,198.34596 -8.8755991,64.69857 Z" />
+</svg>

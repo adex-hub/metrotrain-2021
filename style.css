@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+.intro {
+  background: /*linear-gradient(to bottom right, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 30%),*/ url(metrotrain-final-01.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+header {
+  display: flex;
+  margin-left: 5vw;
+  padding-top: 20px;
+  z-index: 10;
+  position: absolute;
+}
+.svgmenu {
+  margin-right: 3vw;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.logo {
+  font-size: 60px;
+  margin-top: -20px;
+}
+.op {
+  opacity: 0.5;
+}
+#bottom-elements {
+  height: 180px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#column {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  align-items: center;
+  margin-right: 3%;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.avenue {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.state {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.spacing {
+  margin-right: 20px;
+}
+span {
+  height: 100px;
+  width: 2px;
+  background: white;
+}
+#travel-date {
+  margin: 0 3%;
+  line-height: 30px;
+}
+#passengers {
+  margin-right: 3%;
+  line-height: 30px;
+}
+#search {
+  text-transform: uppercase;
+  border: #ff7706;
+  padding: 30px 50px;
+  border-radius: 10px;
+  background: #ff7c06;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 1s padding;
+}
+#s {
+  display: none;
+}
+
+.icon img {
+  width: 50px;
+  filter: invert(1);
+}
+/* Menu options */
+#menu-options {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: black;
+  height: 100vh;
+  /* display: none; */
+  width: 100%;
+  z-index: 5;
+  cursor: pointer;
+  left: -100vw;
+  transition: 0.5s;
+}
+#menu-footer {
+  position: absolute;
+  bottom: 2%;
+  opacity: 0.2;
+  display: block;
+  line-height: 30px;
+  /* left: 50%;
+    margin-left: -119.76px; */
+}
+a#iglink {
+  color: white;
+}
+#copyright a {
+  color: white;
+  text-decoration: none;
+}
+#menu-options.open {
+  left: 0;
+  height: 100vh;
+  /* display: flex; */
+  transition: 0.5s;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  line-height: 100px;
+}
+ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 6vw;
+  font-weight: bold;
+}
+li:hover {
+  -webkit-text-stroke: white 1px;
+  color: transparent;
+}
+
+/* nav animation */
+path.move-1.active {
+  transform: translate(88px, 88px);
+  transition: 0.5s;
+}
+path.move-2.active {
+  transform: translate(88px, -88px);
+  transition: 0.5s;
+}
+path.move-3.active {
+  transform: translate(-88px, 88px);
+  transition: 0.5s;
+}
+path.move-4.active {
+  transform: translate(-88px, -88px);
+  transition: 0.5s;
+}
+
+/* Mobile */
+
+@media (max-width: 850px) {
+  #bottom-elements {
+    flex-direction: column;
+    margin-right: 0;
+    height: 500px;
+    transform: translateY(80vh);
+    position: static;
+  }
+  #column {
+    margin: 0% 5%;
+  }
+  .intro {
+    background: linear-gradient(
+        to bottom right,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0) 50%
+      ),
+      url(metrotrain-final-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 83%;
+    height: 100vh;
+  }
+  span {
+    height: 2px;
+    width: 300px;
+    margin-bottom: 2%;
+  }
+  #travel-date {
+    margin: 0;
+    margin-bottom: 2%;
+  }
+  #passengers {
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+  #column {
+    margin-bottom: 2%;
+  }
+  #menu-options {
+    height: 100vh;
+    line-height: 15vh;
+  }
+  ul li {
+    font-size: 6vw;
+  }
+}
+
+@media (max-height: 500px) {
+  ul li {
+    font-size: 3vw;
+    line-height: 200%;
+  }
+}
+@media (max-width: 320px) {
+  #menu-footer {
+    bottom: 0%;
+    line-height: 20px;
+  }
+}
